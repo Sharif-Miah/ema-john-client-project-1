@@ -1,0 +1,32 @@
+.header {
+    height: 80px;
+    background-color: #1C2B35;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.header a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 36px;
+}
+
+.header a:hover {
+    color: orange;
+}
+
+.log-out {
+    border: none;
+    padding: 6px 12px;
+    background-color: red;
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 8px;
+    margin-left: 15px;
+}
