@@ -37,7 +37,7 @@ const Shop = () => {
         const savedCart = [];
         const ids = Object.keys(storedCart)
         console.log(ids);
-        fetch('http://localhost:5000/productsByIds', {
+        fetch('', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
